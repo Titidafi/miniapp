@@ -1,0 +1,6 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteRule	^accueil	index.php	[L]
+RewriteRule	^(login)$	index.php?action=login	[L]
+RewriteRule	^(invitations)$	index.php?action=invitations	[L]
+RewriteRule	^profil-([0-9]+)	index.php?action=profil&id=$1	[L]
