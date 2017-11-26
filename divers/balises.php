@@ -88,7 +88,7 @@ function nombreAmis($pdo,$idUtilisateur){
 function quelEtat($pdo,$connected_user,$id_user2){
     $sql = "SELECT idUtilisateur2, idUtilisateur1, etat FROM user JOIN lien ON user.id = lien.idUtilisateur2  WHERE  (idUtilisateur1=? AND idUtilisateur2=?) OR (idUtilisateur2=? AND idUtilisateur1=?)";
     $querry = $pdo->prepare($sql);
-    $querry->execute(array($connected_user,$id_user2));
+    $querry->execute(array($connected_user,$id_user2,$connected_user,$id_user2));
     $line= $querry->fetch();
     if ($line!=false){
         //actions à faire
@@ -101,7 +101,7 @@ function quelEtat($pdo,$connected_user,$id_user2){
 }
 function affichage_bouton_profil($pdo,$connected_user,$id_user2){
     if(quelEtat($pdon,$connected_user,$id_user2) == "na"){
-        
+        echo "";
         
     }
     

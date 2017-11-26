@@ -16,7 +16,7 @@
                     <hr>
 
                     <?php
-                    echo quelEtat($pdo,"1","6")[1];
+                    //echo quelEtat($pdo,"1","6")[1];
                     $nom = [];
                     $sql = "SELECT DISTINCT * FROM user";
                     $querry = $pdo->prepare($sql);
