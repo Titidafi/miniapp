@@ -16,9 +16,9 @@
             <input type="submit" class="btn btn-success btn-block" value="Créer" id="valider">
             <?php
             //echo "<p class='label-danger>'";
-            if (isset($_SESSION['error'])) {
-                echo "<p class='bg-danger'>" . $_SESSION['error'] . "</p>";
-                unset($_SESSION['error']);
+            if (isset($_SESSION['alert'])) {
+                echo "<p class='bg-danger'>" . $_SESSION['alert'] . "</p>";
+                unset($_SESSION['alert']);
             }
 
             // echo "</p>"?>
