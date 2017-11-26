@@ -52,7 +52,7 @@
       <file leaf-file-name="connexion.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/traitement/connexion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="231">
               <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <marker date="1507537957077" expanded="true" signature="14:66" ph="SELECT * FRO... user" />
@@ -61,28 +61,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="profil.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vues/profil.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="68" column="76" lean-forward="false" selection-start-line="68" selection-start-column="76" selection-end-line="68" selection-end-column="76" />
+              <folding>
+                <marker date="1511702803547" expanded="true" signature="158:219" ph="SELECT DISTI... ecrit" />
+                <marker date="1511702803547" expanded="true" signature="528:731" ph="SELECT DISTI... user" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
+            <state relative-caret-position="21">
               <caret line="4" column="35760" lean-forward="false" selection-start-line="4" selection-start-column="35756" selection-end-line="4" selection-end-column="35760" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="balises.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="balises.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/divers/balises.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="101" column="65" lean-forward="true" selection-start-line="101" selection-start-column="65" selection-end-line="101" selection-end-column="65" />
+            <state relative-caret-position="190">
+              <caret line="88" column="39" lean-forward="true" selection-start-line="88" selection-start-column="39" selection-end-line="88" selection-end-column="39" />
               <folding>
-                <marker date="1511718661426" expanded="true" signature="1310:1470" ph="SELECT DISTI... user" />
-                <marker date="1511718661426" expanded="true" signature="1730:1872" ph="..." />
-                <marker date="1511718661426" expanded="true" signature="1813:1869" ph="..." />
-                <marker date="1511718661426" expanded="true" signature="1813:1872" ph="..." />
-                <marker date="1511718661426" expanded="true" signature="2096:2239" ph="SELECT DISTI... user" />
-                <marker date="1511718661426" expanded="true" signature="2579:2766" ph="SELECT idUti... user" />
+                <marker date="1511719511508" expanded="true" signature="1310:1470" ph="SELECT DISTI... user" />
+                <marker date="1511719511508" expanded="true" signature="1730:1872" ph="..." />
+                <marker date="1511719511508" expanded="true" signature="1813:1869" ph="..." />
+                <marker date="1511719511508" expanded="true" signature="1813:1872" ph="..." />
+                <marker date="1511719511508" expanded="true" signature="2096:2239" ph="SELECT DISTI... user" />
+                <marker date="1511719511508" expanded="true" signature="2579:2766" ph="SELECT idUti... user" />
               </folding>
             </state>
           </provider>
@@ -98,10 +111,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="lien" pinned="false" current-in-tab="false">
+        <entry file="das://table:/6720bdf5/4258c7b6-cea3-415c-a938-7dbf35c0f8b1/minifb.lien">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="accueil.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vues/accueil.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="-206">
               <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
               <folding>
                 <marker date="1511702806720" expanded="true" signature="815:842" ph="SELECT DISTI... user" />
@@ -451,12 +473,12 @@
       <workItem from="1511168761600" duration="4557000" />
       <workItem from="1511273965231" duration="109000" />
       <workItem from="1511508780301" duration="253000" />
-      <workItem from="1511718062795" duration="1196000" />
+      <workItem from="1511718062795" duration="1467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75901000" />
+    <option name="totallyTimeSpent" value="76172000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -546,13 +568,6 @@
     <entry file="file://$PROJECT_DIR$/login/pages/demandecompte.php" />
     <entry file="file://$PROJECT_DIR$/login/restrictions.php" />
     <entry file="file://$PROJECT_DIR$/login/traitement/login.php" />
-    <entry file="file://$PROJECT_DIR$/vues/404.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login/index.php" />
     <entry file="file://$PROJECT_DIR$/login/traitement/deconnexion.php" />
     <entry file="file://$PROJECT_DIR$/login/traitement/creation.php" />
@@ -659,14 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vues/profil.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
@@ -697,28 +704,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="35760" lean-forward="false" selection-start-line="4" selection-start-column="35756" selection-end-line="4" selection-end-column="35760" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/traitement/connexion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <marker date="1507537957077" expanded="true" signature="14:66" ph="SELECT * FRO... user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/6720bdf5/4258c7b6-cea3-415c-a938-7dbf35c0f8b1/minifb.user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/6720bdf5/4258c7b6-cea3-415c-a938-7dbf35c0f8b1/minifb.ecrit">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/accueil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-206">
+          <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+          <folding>
+            <marker date="1511702806720" expanded="true" signature="815:842" ph="SELECT DISTI... user" />
+            <marker date="1511702806720" expanded="true" signature="1103:1346" ph="SELECT login... user" />
+            <marker date="1511702806720" expanded="true" signature="1856:1863" ph="×" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/profil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="68" column="76" lean-forward="false" selection-start-line="68" selection-start-column="76" selection-end-line="68" selection-end-column="76" />
+          <folding>
+            <marker date="1511702803547" expanded="true" signature="158:219" ph="SELECT DISTI... ecrit" />
+            <marker date="1511702803547" expanded="true" signature="528:731" ph="SELECT DISTI... user" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -730,13 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/6720bdf5/4258c7b6-cea3-415c-a938-7dbf35c0f8b1/minifb.ecrit">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/6720bdf5/4258c7b6-cea3-415c-a938-7dbf35c0f8b1/minifb.lien">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -744,30 +764,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vues/accueil.php">
+    <entry file="file://$PROJECT_DIR$/traitement/connexion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        <state relative-caret-position="231">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <marker date="1511702806720" expanded="true" signature="815:842" ph="SELECT DISTI... user" />
-            <marker date="1511702806720" expanded="true" signature="1103:1346" ph="SELECT login... user" />
-            <marker date="1511702806720" expanded="true" signature="1856:1863" ph="×" />
+            <marker date="1507537957077" expanded="true" signature="14:66" ph="SELECT * FRO... user" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/divers/balises.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="101" column="65" lean-forward="true" selection-start-line="101" selection-start-column="65" selection-end-line="101" selection-end-column="65" />
+        <state relative-caret-position="190">
+          <caret line="88" column="39" lean-forward="true" selection-start-line="88" selection-start-column="39" selection-end-line="88" selection-end-column="39" />
           <folding>
-            <marker date="1511718661426" expanded="true" signature="1310:1470" ph="SELECT DISTI... user" />
-            <marker date="1511718661426" expanded="true" signature="1730:1872" ph="..." />
-            <marker date="1511718661426" expanded="true" signature="1813:1869" ph="..." />
-            <marker date="1511718661426" expanded="true" signature="1813:1872" ph="..." />
-            <marker date="1511718661426" expanded="true" signature="2096:2239" ph="SELECT DISTI... user" />
-            <marker date="1511718661426" expanded="true" signature="2579:2766" ph="SELECT idUti... user" />
+            <marker date="1511719511508" expanded="true" signature="1310:1470" ph="SELECT DISTI... user" />
+            <marker date="1511719511508" expanded="true" signature="1730:1872" ph="..." />
+            <marker date="1511719511508" expanded="true" signature="1813:1869" ph="..." />
+            <marker date="1511719511508" expanded="true" signature="1813:1872" ph="..." />
+            <marker date="1511719511508" expanded="true" signature="2096:2239" ph="SELECT DISTI... user" />
+            <marker date="1511719511508" expanded="true" signature="2579:2766" ph="SELECT idUti... user" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="4" column="35760" lean-forward="false" selection-start-line="4" selection-start-column="35756" selection-end-line="4" selection-end-column="35760" />
+          <folding />
         </state>
       </provider>
     </entry>
