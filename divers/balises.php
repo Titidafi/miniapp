@@ -100,9 +100,11 @@ function quelEtat($pdo,$connected_user,$id_user2){
 
 }
 function affichage_bouton_profil($pdo,$connected_user,$id_user2){
-    if(quelEtat($pdon,$connected_user,$id_user2) == "na"){
-        echo "";
+    if(quelEtat($pdo,$connected_user,$id_user2) == "na"){
+        echo "<a href='#' class='btn btn-primary'>Ajouter</a>";
         
+    }else{
+        echo "<a href='#' class='btn btn-primary'>Enlever</a>";
     }
     
 }

@@ -66,7 +66,8 @@ if ($loginUser != $_SESSION["login"]) {
         <div class="card-body">
             <h4 class="card-title">Card Title</h4>
             <p class="card-text">Avec du texte pour dire voilà</p>
-            <a href="#" class="btn btn-primary">YES</a>
+            <?php affichage_bouton_profil($pdo,$_SESSION['id'],$_GET['id']);
+            ?>
         </div>
     </div>
 </div >

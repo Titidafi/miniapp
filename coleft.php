@@ -1,6 +1,6 @@
 <div class="col-md-4 ">
     <div class="gestion-sociale">
-        <h2>Panneaux Social</h2>
+        <h2>Panneau Social</h2>
         <hr>
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
             <div class="panel panel-info">
