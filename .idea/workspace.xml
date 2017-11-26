@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ac78708-8683-4ca5-a384-b75b86f3fcf7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/divers/balises.php" afterPath="$PROJECT_DIR$/divers/balises.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vues/login.php" afterPath="$PROJECT_DIR$/vues/login.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="21">
@@ -87,8 +87,8 @@
       <file leaf-file-name="balises.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/divers/balises.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="88" column="39" lean-forward="true" selection-start-line="88" selection-start-column="39" selection-end-line="88" selection-end-column="39" />
+            <state relative-caret-position="148">
+              <caret line="86" column="1" lean-forward="true" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
               <folding>
                 <marker date="1511719511508" expanded="true" signature="1310:1470" ph="SELECT DISTI... user" />
                 <marker date="1511719511508" expanded="true" signature="1730:1872" ph="..." />
@@ -97,6 +97,16 @@
                 <marker date="1511719511508" expanded="true" signature="2096:2239" ph="SELECT DISTI... user" />
                 <marker date="1511719511508" expanded="true" signature="2579:2766" ph="SELECT idUti... user" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vues/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -196,7 +206,6 @@
         <option value="$PROJECT_DIR$/config/bd.php" />
         <option value="$PROJECT_DIR$/vues/test.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/Livre de têtes.url" />
-        <option value="$PROJECT_DIR$/vues/login.php" />
         <option value="$PROJECT_DIR$/coleft.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/config/actions.php" />
@@ -208,6 +217,7 @@
         <option value="$PROJECT_DIR$/vues/accueil.php" />
         <option value="src:table:/6720bdf5/4258c7b6-cea3-415c-a938-7dbf35c0f8b1/minifb.lien" />
         <option value="$PROJECT_DIR$/divers/balises.php" />
+        <option value="$PROJECT_DIR$/vues/login.php" />
       </list>
     </option>
   </component>
@@ -473,12 +483,12 @@
       <workItem from="1511168761600" duration="4557000" />
       <workItem from="1511273965231" duration="109000" />
       <workItem from="1511508780301" duration="253000" />
-      <workItem from="1511718062795" duration="1467000" />
+      <workItem from="1511718062795" duration="1862000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76172000" />
+    <option name="totallyTimeSpent" value="76567000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -628,14 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vues/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="113" lean-forward="false" selection-start-line="13" selection-start-column="113" selection-end-line="13" selection-end-column="113" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vues/creationCompte.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -749,14 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://src:table:/6720bdf5/4258c7b6-cea3-415c-a938-7dbf35c0f8b1/minifb.lien">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/6720bdf5/4258c7b6-cea3-415c-a938-7dbf35c0f8b1/minifb.lien">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -774,10 +768,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="4" column="35760" lean-forward="false" selection-start-line="4" selection-start-column="35756" selection-end-line="4" selection-end-column="35760" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/6720bdf5/4258c7b6-cea3-415c-a938-7dbf35c0f8b1/minifb.lien">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/divers/balises.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="88" column="39" lean-forward="true" selection-start-line="88" selection-start-column="39" selection-end-line="88" selection-end-column="39" />
+        <state relative-caret-position="148">
+          <caret line="86" column="1" lean-forward="true" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
           <folding>
             <marker date="1511719511508" expanded="true" signature="1310:1470" ph="SELECT DISTI... user" />
             <marker date="1511719511508" expanded="true" signature="1730:1872" ph="..." />
@@ -789,10 +799,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/vues/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="4" column="35760" lean-forward="false" selection-start-line="4" selection-start-column="35756" selection-end-line="4" selection-end-column="35760" />
+        <state relative-caret-position="84">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
           <folding />
         </state>
       </provider>
