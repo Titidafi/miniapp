@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ac78708-8683-4ca5-a384-b75b86f3fcf7" name="Default" comment="" />
+    <list default="true" id="8ac78708-8683-4ca5-a384-b75b86f3fcf7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/divers/balises.php" afterPath="$PROJECT_DIR$/divers/balises.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,15 +74,15 @@
       <file leaf-file-name="balises.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/divers/balises.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="106" column="47" lean-forward="true" selection-start-line="106" selection-start-column="47" selection-end-line="106" selection-end-column="47" />
+            <state relative-caret-position="400">
+              <caret line="101" column="65" lean-forward="true" selection-start-line="101" selection-start-column="65" selection-end-line="101" selection-end-column="65" />
               <folding>
-                <marker date="1511702735024" expanded="true" signature="1310:1470" ph="SELECT DISTI... user" />
-                <marker date="1511702735024" expanded="true" signature="1730:1872" ph="..." />
-                <marker date="1511702735024" expanded="true" signature="1813:1869" ph="..." />
-                <marker date="1511702735024" expanded="true" signature="1813:1872" ph="..." />
-                <marker date="1511702735024" expanded="true" signature="2096:2239" ph="SELECT DISTI... user" />
-                <marker date="1511702735024" expanded="true" signature="2579:2766" ph="SELECT idUti... user" />
+                <marker date="1511718661426" expanded="true" signature="1310:1470" ph="SELECT DISTI... user" />
+                <marker date="1511718661426" expanded="true" signature="1730:1872" ph="..." />
+                <marker date="1511718661426" expanded="true" signature="1813:1869" ph="..." />
+                <marker date="1511718661426" expanded="true" signature="1813:1872" ph="..." />
+                <marker date="1511718661426" expanded="true" signature="2096:2239" ph="SELECT DISTI... user" />
+                <marker date="1511718661426" expanded="true" signature="2579:2766" ph="SELECT idUti... user" />
               </folding>
             </state>
           </provider>
@@ -449,12 +451,12 @@
       <workItem from="1511168761600" duration="4557000" />
       <workItem from="1511273965231" duration="109000" />
       <workItem from="1511508780301" duration="253000" />
-      <workItem from="1511718062795" duration="72000" />
+      <workItem from="1511718062795" duration="1196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74777000" />
+    <option name="totallyTimeSpent" value="75901000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -756,15 +758,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/divers/balises.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="106" column="47" lean-forward="true" selection-start-line="106" selection-start-column="47" selection-end-line="106" selection-end-column="47" />
+        <state relative-caret-position="400">
+          <caret line="101" column="65" lean-forward="true" selection-start-line="101" selection-start-column="65" selection-end-line="101" selection-end-column="65" />
           <folding>
-            <marker date="1511702735024" expanded="true" signature="1310:1470" ph="SELECT DISTI... user" />
-            <marker date="1511702735024" expanded="true" signature="1730:1872" ph="..." />
-            <marker date="1511702735024" expanded="true" signature="1813:1869" ph="..." />
-            <marker date="1511702735024" expanded="true" signature="1813:1872" ph="..." />
-            <marker date="1511702735024" expanded="true" signature="2096:2239" ph="SELECT DISTI... user" />
-            <marker date="1511702735024" expanded="true" signature="2579:2766" ph="SELECT idUti... user" />
+            <marker date="1511718661426" expanded="true" signature="1310:1470" ph="SELECT DISTI... user" />
+            <marker date="1511718661426" expanded="true" signature="1730:1872" ph="..." />
+            <marker date="1511718661426" expanded="true" signature="1813:1869" ph="..." />
+            <marker date="1511718661426" expanded="true" signature="1813:1872" ph="..." />
+            <marker date="1511718661426" expanded="true" signature="2096:2239" ph="SELECT DISTI... user" />
+            <marker date="1511718661426" expanded="true" signature="2579:2766" ph="SELECT idUti... user" />
           </folding>
         </state>
       </provider>
