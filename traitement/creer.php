@@ -12,6 +12,6 @@ if ($line==false){
     header("location:index.php?action=login");
 
 }else{
-    set_alert("Cet identifiant est déja prit!","danger");
+    set_alert("Cet identifiant est déja prit !","danger");
     header("location:index.php?action=creationCompte");
 }

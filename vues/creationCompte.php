@@ -3,6 +3,7 @@
     <form method="post" action="index.php?action=creer">
         <fieldset>
             <legend>Création de compte</legend>
+            <?php show_alert($_SESSION);?>
             <label for="identifiant">Votre identifiant : </label><input class="form-control" type="text"
                                                                         id="identifiant" name="identifiant">
             <label for="email">Votre email : </label><input type="email" id="email" name="email"
@@ -14,14 +15,7 @@
                                                                             class="form-control"
                                                                             onkeyup="verif(this);"><br>
             <input type="submit" class="btn btn-success btn-block" value="Créer" id="valider">
-            <?php
-            //echo "<p class='label-danger>'";
-            if (isset($_SESSION['alert'])) {
-                echo "<p class='bg-danger'>" . $_SESSION['alert'] . "</p>";
-                unset($_SESSION['alert']);
-            }
 
-            // echo "</p>"?>
         </fieldset>
     </form>
 </div>
