@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ac78708-8683-4ca5-a384-b75b86f3fcf7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/traitement/creer.php" afterPath="$PROJECT_DIR$/traitement/creer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vues/creationCompte.php" afterPath="$PROJECT_DIR$/vues/creationCompte.php" />
-    </list>
+    <list default="true" id="8ac78708-8683-4ca5-a384-b75b86f3fcf7" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +116,7 @@
         <entry file="file://$PROJECT_DIR$/vues/creationCompte.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+              <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -490,12 +487,12 @@
       <workItem from="1511168761600" duration="4557000" />
       <workItem from="1511273965231" duration="109000" />
       <workItem from="1511508780301" duration="253000" />
-      <workItem from="1511718062795" duration="3282000" />
+      <workItem from="1511718062795" duration="3300000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77987000" />
+    <option name="totallyTimeSpent" value="78005000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -812,7 +809,7 @@
     <entry file="file://$PROJECT_DIR$/vues/creationCompte.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
           <folding />
         </state>
       </provider>
