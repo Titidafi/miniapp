@@ -4,6 +4,7 @@
 <form method="post" action="index.php?action=connexion">
     <fieldset>
         <legend>Connexion</legend>
+        <?php show_alert($_SESSION);?>
         <div class="form-group">
        <label for="identifiant">Votre identifiant : </label><input class="form-control" type="text" id="identifiant" name="identifiant">
         </div>

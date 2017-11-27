@@ -105,7 +105,11 @@ function quelEtat($pdo, $connected_user, $id_user2)
     $line = $querry->fetch();
     if ($line != false) {
         //actions à faire
-        return array($line["etat"], $line["idUtilisateur1"], $line["idUtilisateur2"]);
+        return array(
+            "etat" => $line["etat"],
+            "idUtilisateur1" => $line["idUtilisateur1"],
+            "idUtilisateur2" => $line["idUtilisateur2"]
+        );
 
     } else {
         return "na";
@@ -117,11 +121,24 @@ function affichage_bouton_profil($pdo, $connected_user, $id_user2)
 {
     if (quelEtat($pdo, $connected_user, $id_user2) == "na") {
         echo "<a href='index.php?action=ajouter&id=$id_user2' class='btn btn-primary'>Demander en ami</a>";
-    }
-    if (quelEtat($pdo, $connected_user, $id_user2) == "amis") {
+        echo "<a href='index.php?action=bloquer&id=$id_user2' class='btn btn-primary'>Bloquer</a>";
 
-        echo "<a href='index.php?action=ajouter&id=$id_user2' class='btn btn-primary'>Supprimer</a>";
     }
+    if (isset(quelEtat($pdo, $connected_user, $id_user2)["etat"])){
+
+
+        if (quelEtat($pdo, $connected_user, $id_user2)["etat"] == "amis") {
+
+            echo "<a href='index.php?action=ajouter&id=$id_user2' class='btn btn-danger'>X Supprimer</a>";
+        }
+        if (quelEtat($pdo, $id_user2, $connected_user)["etat"]  == "bloque") {
+
+        }
+
+
+    }
+
+
 }
 
 function set_alert($message,$class)

@@ -49,25 +49,19 @@ if ($loginUser != $_SESSION["login"]) {
 
 
     ?>
-
     <div class="card thumbnail" style="width:'20rem';">
         <img class="card-img-top" src="12.png"  alt="img"/>
         <div class="card-body">
             <h4 class="card-title"><?php echo $loginUser;?></h4>
             <p class="card-text">Avec du texte pour dire voilà</p>
-            <a href="#" class="btn btn-primary">YES</a>
-        </div>
-    </div>
-    <?php }
-?>
-<h2>YES LIFE</h2 >
-    <div class="card thumbnail" style="width:'20rem';">
-        <img class="card-img-top" src="12.png"  alt="img"/>
-        <div class="card-body">
-            <h4 class="card-title">Card Title</h4>
-            <p class="card-text">Avec du texte pour dire voilà</p>
             <?php affichage_bouton_profil($pdo,$_SESSION['id'],$_GET['id']);
             ?>
         </div>
     </div>
+
+    <?php }else{
+    header("Location:index.php?action=compte");
+}
+?>
+
 </div >
